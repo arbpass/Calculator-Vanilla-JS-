@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img.jpg");
+    background-size: cover;
+}
+
+.container{
+    height: 550px;
+    width: 350px;
+    display: block;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.container:hover{
+    box-shadow: 0px 0px 50px black;
+    transform: scale(102%);
+}
+
+.screen{
+    width: 320px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    font-family: cursive;
+    padding-right: 20px;
+}
+.keypad{
+    width: 330px;
+    height: 440px;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn{
+    width: 21%;
+    height: 16%;
+    border-radius: 50%;
+    margin: 2.7% 1.54%;
+    border: none;
+    background-color: rgb(37, 37, 34);
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+#C, #CE, .mod{
+    background-color: rgb(112, 112, 109);
+}
+.divide, .multi, .add, .sub, .equal{
+    background-color: rgb(232 76 61);
+}
